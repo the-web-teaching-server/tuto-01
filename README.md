@@ -1,7 +1,7 @@
 # Tutorial 1: HTML and CSS
 
 1. Create an account on Glicth.com and log you in,
-1. then [import this repo in glitch!](https://glitch.com/edit/#!/import/github/the-web-teaching-server/the-web-teaching-server)
+1. then [import this repo in glitch!](https://glitch.com/edit/#!/import/github/the-web-teaching-server/tuto-01)
 
 This tutorial aims to build a form which uses some of the abilities of
 the Google search engine.
