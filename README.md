@@ -89,14 +89,20 @@ In this section, we setup the form!
       <ul class="nice-list">
         <li>the query,</li>
         <li>the number of results per page,</li>
-        <li>the language of the result.</li>
+        <li>the language of the result,  which can be either:
+          <ul>
+            <li>French</li>
+            <li>English</li>
+            <li>Italian</li>
+          </ul>
+        </li>
       </ul>
     </div>
     <form id="search-form" action="https://www.google.com/search">
       <label>Enter your query: <input type="text" name="q" /></label>
       <label>How many results per page?<input type="number" min="0" name="num"/></label>
       <div>
-        Choose your search language?
+        Choose your search language:
         <ul class="nice-list">
           <li><label><input type="radio" name="hl" value="fr" />French</label></li>
           <li><label><input type="radio" name="hl" value="en" />English</label></li>
