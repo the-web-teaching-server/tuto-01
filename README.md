@@ -1,21 +1,21 @@
 # Tutorial 1: HTML and CSS
 
-This tutorial aims to build a form which uses some of the abilities of
+This tutorial aims at helping you build a form which uses some of the abilities of
 the Google search engine.
 
 ## Introduction
 
-You can see the result of the code by clicking on the "Show" button in the
+You can see the result of the code by clicking on the "Show" button at the
 top of the interface.
 
 1. Open the `index.html` file and find out:
-    * where is the language of the document declared?
-    * where is the encoding of the document declared?
-    * what is the role of the `<link>` tag?
-    * where the text in the `<title>` tag will be displayed?
+    * where the language of the document declared is,
+    * where the encoding of the document declared is,
+    * what the role of the `<link>` tag is,
+    * where the text in the `<title>` tag will be displayed.
 
 ## Write content (HTML)
-Keep in mind that HTML must convey only "data" and no style information
+Keep in mind that HTML must only convey "data" and no style information
 at all. In this section, your result will be a bit ugly. Don't worry,
 we will fix that in the last section!
 
@@ -34,13 +34,14 @@ we will fix that in the last section!
 ## Write a form
 In this section, we setup the form!
 
-1. First, make a search on Google about "H2G2 Marvin". Look at the url in the top
+1. First, make a search on Google about "H2G2 Marvin". Look at the url at
+   the top
    of your browser, it should be similar to:
    ```
    https://www.google.com/search?client=firefox-b-d&channel=crow&q=H2G2+Marvin
    ```
    After the question mark `?`, you can see the parameters separated
-   with a `&`. You can forget about almost all the parameters except the
+   with a `&`. You can ignore almost all parameters except the
    `q=...` which is what we have entered. Note that the space in our request
    has been replaced by a `+` symbol.
    * Modify the URL by hand to search about "H2G2 Ford Perfect"
@@ -52,17 +53,17 @@ In this section, we setup the form!
   the submissions to the form create a new request to the Google search engine.
 1. Add an `<input>` tag of type "text" and name "q" ("type" and "name" are
   attributes of the `input` tag).
-1. Add an `<input>` tage of type "submit" and customize the displayed text
+1. Add an `<input>` tag of type "submit" and customize the displayed text
    with the attribute "value".
 1. Try your form! Enter a string in the field and press "Enter". This should
   redirect you to a Google search. Note that the "q" parameter has been added
   to the url!
 1. Proceed in a similar manner to add a field defining the number of results by pages (use the type "number"
   and the attribute "min" to restrict the possible values typed by the user ).
-1. Add a label and a "placeholder" on each of this field in order to have a useable form.
+1. Add a label and a "placeholder" in both fields in order to have a useable form.
   [Click here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Label) for details about labels.
 1. Use [radio buttons](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input/radio)
-  to let the user choose among French, English or Italian. (the linked document abour radio button
+  to let the user choose among French, English or Italian. (the linked document about radio button
   use `div`s to *list* all the options... What tags would be more appropriate for this purpose?)
 
 ## Give it some style!
@@ -82,7 +83,7 @@ In this section, we setup the form!
 
     <div id="description">
       <p>
-        The Google search engine allows you to define some paramters in the URL! Here
+        The Google search engine allows you to define some parameters in the URL! Here
         are the paramters this forms takes into account:
       </p>
       <ul class="nice-list">
@@ -93,9 +94,9 @@ In this section, we setup the form!
     </div>
     <form id="search-form" action="https://www.google.com/search">
       <label>Enter your query: <input type="text" name="q" /></label>
-      <label>How many results by page?<input type="number" min="0" name="num"/></label>
+      <label>How many results per page?<input type="number" min="0" name="num"/></label>
       <div>
-        What language do you want?
+        Choose your search language?
         <ul class="nice-list">
           <li><label><input type="radio" name="hl" value="fr" />French</label></li>
           <li><label><input type="radio" name="hl" value="en" />English</label></li>
@@ -110,7 +111,7 @@ In this section, we setup the form!
 ```
 
 The challenge of this last part is to use the HTML code above, without editing it.
-You only can edit the CSS file to achieve render the HTML like (a field is selected on the second image):
+You only can edit the CSS file to render the HTML like (a field is selected on the second image):
 
 ![nice form](https://cdn.glitch.com/0f90b5e2-6644-4dc1-9d49-3369ad8943b1%2Fimage.png?v=1562053335457)
 
