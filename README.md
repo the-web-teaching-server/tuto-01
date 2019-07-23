@@ -151,12 +151,14 @@ You only can edit the CSS file to render the HTML like:
   `padding`,
   `font-size` and `color` to get:
   ![fat search button](/imgs/step5.png)
+
   (the background color of the button is `#ffa7a7`)
 1. Using similar selectors and
 `display`,
   `padding`,
   `border-radius`,
-  `border`, make the two fields looks like:
+  `border`, make the two fields looks like (the border color
+  of the fields is è#ffa7a7`):
   ![nice fields](/imgs/step6.png)
 1. Using the `:focus` pseudo selector,  make the border "sharper" when on of the
    field is selected:
