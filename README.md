@@ -138,7 +138,8 @@ You only can edit the CSS file to render the HTML like:
    margins to 0 for the `p` and `ul` tags.
    You should have something like:
    ![nice list 1](https://cdn.glitch.com/0f90b5e2-6644-4dc1-9d49-3369ad8943b1%2Fimage.png?v=1562053501714)
-1. Make the "nice list"s really "nice":
+1. Make the "nice list"s really "nice" (you only need `border-left` and
+   some `padding` and `margin`):
   ![nice list 2](https://cdn.glitch.com/0f90b5e2-6644-4dc1-9d49-3369ad8943b1%2Fimage.png?v=1562053944535)
   The red rule is a 3px wide red border.
   You may need the "child selector" `>` in your selector...
