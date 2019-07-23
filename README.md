@@ -122,7 +122,6 @@ You only can edit the CSS file to render the HTML like:
 ![nice form](/imgs/complete.png)
 
 
-
 1. Remind you CAN NOT CHANGE THE HTML! To deal with layout, it is recommended
    to use the "flexbox" (or "grid"). For instance, you can apply the rule
    `display: flexbox;` on the `body` tag. Look at the `flex-direction` and `align-items`
@@ -143,7 +142,6 @@ You only can edit the CSS file to render the HTML like:
    You should have something like:
 
    ![nice list 1](/imgs/step3.png)
-
 1. Make the "nice list"s really "nice" (you only need `border-left` and
    some `padding` and `margin`):
 
@@ -170,7 +168,6 @@ You only can edit the CSS file to render the HTML like:
   of the fields is `#ffa7a7`):
 
   ![nice fields](/imgs/step6.png)
-
 1. Using the `:focus` pseudo selector,  make the border "sharper" when on of the
    field is selected:
    ![field selected](/imgs/step7.png)
