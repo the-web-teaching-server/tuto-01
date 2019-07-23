@@ -117,7 +117,7 @@ In this section, we setup the form!
 ```
 
 The challenge of this last part is to use the HTML code above, without editing it.
-You only can edit the CSS file to render the HTML like (a field is selected on the second image):
+You only can edit the CSS file to render the HTML like:
 
 ![nice form](https://cdn.glitch.com/0f90b5e2-6644-4dc1-9d49-3369ad8943b1%2Fimage.png?v=1562053335457)
 
