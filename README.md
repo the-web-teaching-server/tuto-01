@@ -127,20 +127,28 @@ You only can edit the CSS file to render the HTML like:
    to use the "flexbox" (or "grid"). For instance, you can apply the rule
    `display: flexbox;` on the `body` tag. Look at the `flex-direction` and `align-items`
    to get:
+
    ![centered](/imgs/step1.png)
+
    (the font is "Helvetica")
 1. Use the id to select the form and play with `display`, `flex-direction`,
    `border`, `border-radius` and `padding` to have:
+
    ![form 1](/imgs/step2.png)
+
    Make also the form at least 350px wide.
 1. Make the tag with id description at most 450px wide and remove the bullets
    of the "nice-list"s (use the `list-style-type` property). Set also the
    margins to 0 for the `p` and `ul` tags.
    You should have something like:
+
    ![nice list 1](/imgs/step3.png)
+
 1. Make the "nice list"s really "nice" (you only need `border-left` and
    some `padding` and `margin`):
+
   ![nice list 2](/imgs/step4.png)
+
   The red rule is a 3px wide red border.
   You may need the "child selector" `>` in your selector...
 1. Select the submit button in the search form with the selector
@@ -150,6 +158,7 @@ You only can edit the CSS file to render the HTML like:
   `border-radius`,
   `padding`,
   `font-size` and `color` to get:
+
   ![fat search button](/imgs/step5.png)
 
   (the background color of the button is `#ffa7a7`)
@@ -158,8 +167,10 @@ You only can edit the CSS file to render the HTML like:
   `padding`,
   `border-radius`,
   `border`, make the two fields looks like (the border color
-  of the fields is è#ffa7a7`):
+  of the fields is `#ffa7a7`):
+
   ![nice fields](/imgs/step6.png)
+
 1. Using the `:focus` pseudo selector,  make the border "sharper" when on of the
    field is selected:
    ![field selected](/imgs/step7.png)
@@ -167,12 +178,14 @@ You only can edit the CSS file to render the HTML like:
    (the border color is pure "red")
 1. Set a vertical margin of 20px on each of the immediate child of the form (it is only
    one selector and one property; `*` selector can be useful):
+
    ![form spaced](/imgs/step8.png)
 
    By the way, using space to isolate content is often prettier than draw
    rules.
 1. Using the `:before` pseudo selector and the `content` property, add the text
    "My form" in red on the top of your form. Color the title in red... Tada:
+
    ![complete](/imgs/complete.png)
 
 
