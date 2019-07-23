@@ -147,7 +147,7 @@ You only can edit the CSS file to render the HTML like:
 
   ![nice list 2](/imgs/step4.png)
 
-  The red rule is a 3px wide red border.
+   The red rule is a 3px wide red border.
   You may need the "child selector" `>` in your selector...
 1. Select the submit button in the search form with the selector
    `#search-form input[type=submit]` and play with
