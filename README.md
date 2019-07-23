@@ -143,38 +143,39 @@ You only can edit the CSS file to render the HTML like:
 
    ![nice list 1](/imgs/step3.png)
 1. Make the "nice list"s really "nice" (you only need `border-left` and
-   some `padding` and `margin`):
+   some `padding` and `margin`):
 
-  ![nice list 2](/imgs/step4.png)
+   ![nice list 2](/imgs/step4.png)
 
    The red rule is a 3px wide red border.
    You may need the "child selector" `>` in your selector...
 1. Select the submit button in the search form with the selector
    `#search-form input[type=submit]` and play with
    `background-color`,
-  `border`,
-  `border-radius`,
-  `padding`,
-  `font-size` and `color` to get:
+   `border`,
+   `border-radius`,
+   `padding`,
+   `font-size` and `color` to get:
 
-  ![fat search button](/imgs/step5.png)
+   ![fat search button](/imgs/step5.png)
 
-  (the background color of the button is `#ffa7a7`)
+   (the background color of the button is `#ffa7a7`)
 1. Using similar selectors and
-`display`,
-  `padding`,
-  `border-radius`,
-  `border`, make the two fields looks like (the border color
-  of the fields is `#ffa7a7`):
+   `display`,
+   `padding`,
+   `border-radius`,
+   `border`, make the two fields looks like (the border color
+   of the fields is `#ffa7a7`):
 
-  ![nice fields](/imgs/step6.png)
+   ![nice fields](/imgs/step6.png)
+
 1. Using the `:focus` pseudo selector,  make the border "sharper" when on of the
    field is selected:
    ![field selected](/imgs/step7.png)
 
    (the border color is pure "red")
 1. Set a vertical margin of 20px on each of the immediate child of the form (it is only
-   one selector and one property; `*` selector can be useful):
+   one selector and one property; `*` selector can be useful):
 
    ![form spaced](/imgs/step8.png)
 
@@ -184,7 +185,3 @@ You only can edit the CSS file to render the HTML like:
    "My form" in red on the top of your form. Color the title in red... Tada:
 
    ![complete](/imgs/complete.png)
-
-
-
-
