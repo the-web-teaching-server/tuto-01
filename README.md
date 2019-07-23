@@ -163,10 +163,12 @@ You only can edit the CSS file to render the HTML like:
 1. Using the `:focus` pseudo selector,  make the border "sharper" when on of the
    field is selected:
    ![field selected](/imgs/step7.png)
+
    (the border color is pure "red")
 1. Set a vertical margin of 20px on each of the immediate child of the form (it is only
-   one selector and one property):
+   one selector and one property; `*` selector can be useful):
    ![form spaced](/imgs/step8.png)
+
    By the way, using space to isolate content is often prettier than draw
    rules.
 1. Using the `:before` pseudo selector and the `content` property, add the text
