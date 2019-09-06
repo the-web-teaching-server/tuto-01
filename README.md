@@ -58,8 +58,11 @@ In this section, we setup the form!
 1. Try your form! Enter a string in the field and press "Enter". This should
   redirect you to a Google search. Note that the "q" parameter has been added
   to the url!
-1. Proceed in a similar manner to add a field defining the number of results by pages (use the type "number"
-  and the attribute "min" to restrict the possible values typed by the user ).
+1. Proceed in a similar manner to add a field defining the number of results by pages.
+
+  *Note: you can use the type "number"
+  and the attribute "min" to restrict the possible values typed by the user. Do
+  not forget to specify the `name` attribute!
 1. Add a label and a "placeholder" in both fields in order to have a useable form.
   [Click here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Label) for details about labels.
 1. Use [radio buttons](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input/radio)
@@ -117,14 +120,16 @@ In this section, we setup the form!
 ```
 
 The challenge of this last part is to use the HTML code above, without editing it.
-You only can edit the CSS file to render the HTML like:
+You only can edit the CSS file to render the HTML like (the steps will be
+detailled below, keep reading!):
 
 ![nice form](/imgs/complete.png)
 
 
-1. Remind you CAN NOT CHANGE THE HTML! To deal with layout, it is recommended
-   to use the "flexbox" (or "grid"). For instance, you can apply the rule
-   `display: flexbox;` on the `body` tag. Look at the `flex-direction` and `align-items`
+1. Remind you HAVE to use the above HTML code and you CANNOT CHANGE IT! To deal
+   with layout, it is recommended
+   to use the "flexbox" layout. For instance, you can apply the rule
+   `display: flex;` on the `body` tag. Look at the `flex-direction` and `align-items`
    to get:
 
    ![centered](/imgs/step1.png)
@@ -142,6 +147,8 @@ You only can edit the CSS file to render the HTML like:
    You should have something like:
 
    ![nice list 1](/imgs/step3.png)
+
+   *Note:* you may need to add some margin and/or padding to the `li` tags.
 1. Make the "nice list"s really "nice" (you only need `border-left` and
    some `padding` and `margin`):
 
