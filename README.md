@@ -129,8 +129,9 @@ detailled below, keep reading!):
 1. Remind you HAVE to use the above HTML code and you CANNOT CHANGE IT! To deal
    with layout, it is recommended
    to use the "flexbox" layout. For instance, you can apply the rule
-   `display: flex;` on the `body` tag. Look at the `flex-direction` and `align-items`
-   to get:
+   `display: flex;` on the `body` tag.
+
+   Look at the `flex-direction` and `align-items` CSS properties to get:
 
    ![centered](/imgs/step1.png)
 
