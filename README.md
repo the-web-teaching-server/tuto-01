@@ -29,7 +29,7 @@ we will fix that in the last section!
 1. Use a the `<ul>` and `<li>` tags in order to list the three parameters
   your page will take into account: the query, the number of results per page
   and the language of the result. The result should look similar to:
-  ![List example](https://cdn.glitch.com/0f90b5e2-6644-4dc1-9d49-3369ad8943b1%2Fimage.png?v=1561989063561)
+  ![List example](https://cdn.glitch.com/da30473a-a784-4c61-bf9a-f183a47427d2%2Fimage.png?v=1567514009702)
 
 ## Write a form
 In this section, we setup the form!
